@@ -24,7 +24,26 @@ Please note that this process breakdown **assumes that you are famiiar with Sass
 Set up the structure & values of your variables here. Colors, font embed codes, images, etc... This will allow CloudCannon to display these keys in a user-friendly interface on their Explore view. They have a nice database of keys which are displayed with their own UI, which you can check here: https://docs.cloudcannon.com/editing/interfaces/inputs/
 
 #### <code>style.scss</code>
-This file needs to have empty Front Matter for Jekyll to process it; **do so by adding 2 lines of 3 dashes (<code>---</code>) at the top of the file**. Write your SCSS normally, and where you'd normally place the value for the Sass variables, place a Liquid tag to pass the values from the <code>settings.yml</code> file. Following this project's example, instead of <code>$primary_color: '#eee';</code>, you should set <code>$primary_color:{{site.data.settings.colors.primary_color}};</code>, to which Jekyll will output <code>$primary_color: '#eee';</code> on the <code>_site/styles/style.css</code> folder.
+This file needs to have empty Front Matter for Jekyll to process it; **do so by adding 2 lines of 3 dashes (<code>---</code>) at the top of the file**.<br>
+Write your SCSS normally, and where you'd normally place the value for the Sass variables, place a Liquid tag to pass the values from the <code>settings.yml</code> file. Following this project's example, instead of <code>$primary_color: '#eee';</code>, you should set <code>$primary_color:{{site.data.settings.colors.primary_color}};</code>, to which Jekyll will output <code>$primary_color: '#eee';</code> on the <code>_site/styles/style.css</code> folder. Overall the file should look something like this:
+```
+---
+---
+// note the 2 lines of dashes with empty front matter above: that's what tell Jekyll to process this file
+
+// add your partials here, for example:
+@import 'resets';
+
+// describe your Sass variables here:
+
+$primary_color: {{site.data.settings.colors.primary_color}};
+$secondary_color: {{site.data.settings.colors.secondary_color}}
+
+// write your SCSS from here, for example:
+
+h1 { color: $primary_color; }
+h2 { background-color: $secondary_color;}
+```
 
 #### <code>_config.yml</code>
 In case you are using partials, you must add the following code to your <code>_config.yml</code> file:<br>
