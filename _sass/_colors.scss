@@ -1,7 +1,4 @@
 
-$primary_color: {{site.settings.style-settings.primary_color}};
-$secondary_color: {{site.settings.style-settings.secondary_color}};
-$accent_color: {{site.settings.style-settings.tertiery_color}};
-// $primary_color: #eee;
-// $secondary_color: #006cbf;
-// $accent_color: #f7be00;
+$primary_color: {{site.data.settings.colors.primary_color}};
+$secondary_color: {{site.data.settings.colors.secondary_color}};
+$accent_color: {{site.data.settings.colors.accent_color}};

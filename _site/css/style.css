@@ -1,9 +1,20 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
 h1 {
   color: #eee;
 }
 
 p {
   background-color: #006cbf;
+}
+
+h2 {
+  color: #f7be00;
 }
 
 /*# sourceMappingURL=style.css.map */

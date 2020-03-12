@@ -3,12 +3,12 @@
 	"file": "style.css",
 	"sources": [
 		"style.scss",
-		"_sass/_colors.scss"
+		"_sass/_reset.scss"
 	],
 	"sourcesContent": [
-		"@import \"colors\";\n\nh1 {\n  color: $primary_color;\n}\n\np {\n  background-color: $secondary_color;\n}\n",
-		"\n// $primary_color: ;\n// $secondary_color: ;\n// $accent_color: ;\n$primary_color: #eee;\n$secondary_color: #006cbf;\n$accent_color: #f7be00;\n"
+		"@import '_reset';\n\n$primary_color: #eee;\n$secondary_color: #006cbf;\n$accent_color: #f7be00;\n\nh1 {\n  color: $primary_color;\n}\n\np {\n  background-color: $secondary_color;\n}\n\nh2 {\n  color: $accent_color;\n}\n",
+		"* {\n  box-sizing: border-box;\n  padding: 0;\n  margin: 0;\n  text-decoration: none;\n}\n"
 	],
 	"names": [],
-	"mappings": "AAEA,AAAA,EAAE,CAAC;EACD,KAAK,ECCS,IAAI;CDAnB;;AAED,AAAA,CAAC,CAAC;EACA,gBAAgB,ECFA,OAAO;CDGxB"
+	"mappings": "ACAA,AAAA,CAAC,CAAC;EACA,UAAU,EAAE,UAAU;EACtB,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,eAAe,EAAE,IAAI;CACtB;;ADCD,AAAA,EAAE,CAAC;EACD,KAAK,EALS,IAAI;CAMnB;;AAED,AAAA,CAAC,CAAC;EACA,gBAAgB,EARA,OAAO;CASxB;;AAED,AAAA,EAAE,CAAC;EACD,KAAK,EAXQ,OAAO;CAYrB"
 }

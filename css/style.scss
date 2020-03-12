@@ -1,6 +1,11 @@
 ---
 ---
-@import "colors";
+@import '_reset';
+@import '_colors';
+
+// $primary_color: {{site.data.settings.colors.primary_color}};
+// $secondary_color: {{site.data.settings.colors.secondary_color}};
+// $accent_color: {{site.data.settings.colors.accent_color}};
 
 h1 {
   color: $primary_color;
@@ -8,4 +13,8 @@ h1 {
 
 p {
   background-color: $secondary_color;
+}
+
+h2 {
+  color: $accent_color;
 }
