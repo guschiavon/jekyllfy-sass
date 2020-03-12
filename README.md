@@ -43,6 +43,10 @@ $secondary_color: {{site.data.settings.colors.secondary_color}};
 
 h1 { color: $primary_color; }
 h2 { background-color: $secondary_color;}
+
+// alternatively, add partials to render the stylesheet
+
+@import '_typography'
 ```
 
 #### <code>_config.yml</code>
@@ -53,4 +57,4 @@ sass:
 ```
 
 #### Sass partials
-I have run into errors when trying to populate partials with YAML values, so the work around is to have all the Sass variables on your main `SCSS` file. If you know how to work around this, get in touch!
+I have run into errors when trying to populate **_variables located in partials_** with YAML values, so the work around is to have all the Sass variables on your main `SCSS` file and use `@import` for the actual styles. If you know how to work around this, get in touch!
