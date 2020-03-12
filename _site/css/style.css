@@ -7,10 +7,14 @@
 
 h1 {
   color: #eee;
+  font-weight: 700;
 }
 
 p {
   background-color: #006cbf;
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-family: "Nunito", sans-serif;
 }
 
 h2 {

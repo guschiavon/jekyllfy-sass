@@ -1,0 +1,15 @@
+h1 {
+  color: $primary_color;
+  font-weight: $heading_1_font_weight;
+}
+
+p {
+  background-color: $secondary_color;
+  font-size: $paragraph_font_size;
+  font-weight: $paragraph_font_weight;
+  font-family: $font_family;
+}
+
+h2 {
+  color: $accent_color;
+}

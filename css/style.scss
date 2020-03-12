@@ -3,18 +3,22 @@
 
 @import '_reset';
 
+// All the Sass variables must be on the top-level/main SCSS file in order to use YAML to populate the values
+
 $primary_color: {{site.data.settings.colors.primary_color}};
 $secondary_color: {{site.data.settings.colors.secondary_color}};
 $accent_color: {{site.data.settings.colors.accent_color}};
 
-h1 {
-  color: $primary_color;
-}
+$font_family: {{site.data.settings.font_embed.font_family_name}};
 
-p {
-  background-color: $secondary_color;
-}
+$heading_1_font_size: {{site.data.settings.heading_settings.heading_1_font_size}};
+$heading_1_font_weight: {{site.data.settings.heading_settings.heading_1_font_weight}};
+$heading_2_font_size: {{site.data.settings.heading_settings.heading_2_font_size}};
+$heading_2_font_weight: {{site.data.settings.heading_settings.heading_2_font_weight}};
+$paragraph_font_size: {{site.data.settings.paragraph_settings.paragraph_font_size}};
+$paragraph_font_weight: {{site.data.settings.paragraph_settings.paragraph_font_weight}};
 
-h2 {
-  color: $accent_color;
-}
+
+// Use partials to then populate the remainder of the stylesheet, keeping it all organised as you need
+
+@import "_typography";
