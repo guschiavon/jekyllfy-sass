@@ -19,6 +19,6 @@ $paragraph_font_size: {{site.data.settings.paragraph_settings.paragraph_font_siz
 $paragraph_font_weight: {{site.data.settings.paragraph_settings.paragraph_font_weight}};
 
 
-// Use partials to then populate the remainder of the stylesheet, keeping it all organised as you need
+// Use partials located on the _sass folder to then populate the remainder of the stylesheet, keeping it all organised as you need
 
 @import "_typography";
