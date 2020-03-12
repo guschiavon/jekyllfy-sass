@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"colors\";\n\nh1 {\n  color: $primary_color;\n}\n\np {\n  background-color: $secondary_color;\n}\n",
-		"$primary_color: {{site.settings.style-settings.primary_color}};\n$secondary_color: {{site.settings.style-settings.secondary_color}};\n$accent_color: {{site.settings.style-settings.tertiery_color}};\n"
+		"\n// $primary_color: ;\n// $secondary_color: ;\n// $accent_color: ;\n$primary_color: #eee;\n$secondary_color: #006cbf;\n$accent_color: #f7be00;\n"
 	],
 	"names": [],
-	"mappings": "AAEA,AAAA,EAAE,CAAC;EACD,KAAK,ECHS,MAAM;CDIrB;;AAED,AAAA,CAAC,CAAC;EACA,gBAAgB,ECNA,MAAM;CDOvB"
+	"mappings": "AAEA,AAAA,EAAE,CAAC;EACD,KAAK,ECCS,IAAI;CDAnB;;AAED,AAAA,CAAC,CAAC;EACA,gBAAgB,ECFA,OAAO;CDGxB"
 }
