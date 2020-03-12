@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"style.scss",
+		"_sass/_colors.scss"
+	],
+	"sourcesContent": [
+		"@import \"colors\";\n\nh1 {\n  color: $primary_color;\n}\n\np {\n  background-color: $secondary_color;\n}\n",
+		"$primary_color: {{site.settings.style-settings.primary_color}};\n$secondary_color: {{site.settings.style-settings.secondary_color}};\n$accent_color: {{site.settings.style-settings.tertiery_color}};\n"
+	],
+	"names": [],
+	"mappings": "AAEA,AAAA,EAAE,CAAC;EACD,KAAK,ECHS,MAAM;CDIrB;;AAED,AAAA,CAAC,CAAC;EACA,gBAAgB,ECNA,MAAM;CDOvB"
+}
