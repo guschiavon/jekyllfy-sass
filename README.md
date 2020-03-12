@@ -37,7 +37,7 @@ Write your SCSS normally, and where you'd normally place the value for the Sass 
 // describe your Sass variables here:
 
 $primary_color: {{site.data.settings.colors.primary_color}};
-$secondary_color: {{site.data.settings.colors.secondary_color}}
+$secondary_color: {{site.data.settings.colors.secondary_color}};
 
 // write your SCSS from here, for example:
 
