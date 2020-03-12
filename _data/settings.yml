@@ -2,8 +2,9 @@ colors:
   primary_color: '#eee'
   secondary_color: '#006cbf'
   accent_color: '#f7be00'
+# content like code snippets or that have quote marks must follow YAML syntax rules
 font_embed:
-  font_embed_url: https://fonts.googleapis.com/css?family=Nunito&display=swap
+  font_embed_code_block: '<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">'
   font_family_name: "'Nunito', sans-serif"
 heading_settings:
   heading_1_font_size: 2.5rem
