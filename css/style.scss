@@ -61,3 +61,10 @@ p {
   overflow: hidden;
   @include image-fit;
 }
+.image-container-3 {
+  height: 600px;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  @include image-fit;
+}
