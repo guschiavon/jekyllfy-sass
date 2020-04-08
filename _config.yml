@@ -1,3 +1,23 @@
 sass:
     sass_dir: _sass
-    style: expanded
+    style: compressed
+plugins:
+  - jekyll-responsive-image
+
+responsive_image:
+  template: _includes/srcset.html
+  sizes:
+    - width: 360
+      quality: 70
+    - width: 480
+      quality: 75
+    - width: 600
+      quality: 75
+    - width: 800
+      quality: 80
+    - width: 2000
+      quality: 80
+    - width: 3000
+      quality: 90
+  base_path: assets/images
+  output_path_format: assets/srcset/%{width}/%{basename}

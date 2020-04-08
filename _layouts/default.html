@@ -1,0 +1,16 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Test Site</title>
+    <!-- This is the Google Fonts embed link which is pulled from the YAML -->
+    {{site.data.settings.font_embed.font_embed_code_block}}
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    {{content}}
+  </body>
+</html>

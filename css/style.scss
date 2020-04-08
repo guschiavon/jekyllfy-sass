@@ -18,7 +18,46 @@ $heading_2_font_weight: {{site.data.settings.heading_settings.heading_2_font_wei
 $paragraph_font_size: {{site.data.settings.paragraph_settings.paragraph_font_size}};
 $paragraph_font_weight: {{site.data.settings.paragraph_settings.paragraph_font_weight}};
 
+$background-1: "{{site.data.settings.backgrounds.background-1_image}}";
+$background-2: "{{site.data.settings.backgrounds.background-1_image}}";
+$background-3: "{{site.data.settings.backgrounds.background-1_image}}";
+
 
 // Use partials located on the _sass folder to then populate the remainder of the stylesheet, keeping it all organised as you need
 
 @import "_typography";
+
+@mixin image-fit {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.heading,
+p {
+  padding: 1rem;
+  background-color: $accent_color;
+  border-radius: 5px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.image-container-1 {
+  height: 300px;
+  width: 50%;
+  margin: auto;
+  overflow: hidden;
+  @include image-fit;
+}
+
+.image-container-2 {
+  height: 800px;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  @include image-fit;
+}

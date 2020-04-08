@@ -1,23 +1,20 @@
 ---
+layout: default
 ---
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>My Test Site</title>
-    <!-- This is the Google Fonts embed link which is pulled from the YAML -->
-    {{site.data.settings.font_embed.font_embed_code_block}}
-    <link rel="stylesheet" href="/css/style.css">
-  </head>
-  <body>
-    <h1>
+
+    <h1 class="heading">
       This is a Heading 1
     </h1>
-    <h2>
+    <h2 class="heading">
       This is a Heading 2
     </h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
-  </body>
-</html>
+    <div class="image-container-1">
+      {% responsive_image path: assets/images/placeholder-005.jpg alt: "Something" %}
+    </div>
+    <div class="image-container-2">
+      {% responsive_image path: assets/images/placeholder-008.jpg alt: "Something else" %}
+    </div>
+  
