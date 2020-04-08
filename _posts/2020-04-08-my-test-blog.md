@@ -16,5 +16,3 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 ![](/assets/images/placeholder-006.jpg){: width="2751" height="1830"}
 
 Some more jibberjabber here
-
-\!\[Test image\](assets/images/placeholder-012.jpg)
