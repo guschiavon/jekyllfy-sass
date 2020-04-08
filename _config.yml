@@ -6,7 +6,7 @@ plugins:
 
 responsive_image:
   template: _includes/srcset.html
-  base_path: /assets/images
+  base_path: assets/images
   output_path_format: assets/srcset/%{width}/%{basename}
   sizes:
     - width: 360
