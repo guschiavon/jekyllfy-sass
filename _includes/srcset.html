@@ -1,4 +1,4 @@
-  
+
 
 {% capture srcset %}
 {% for i in resized %}
@@ -6,4 +6,4 @@
 {% endfor %}
 {% endcapture %}
 
-<img src="/{{ path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w">
+<img src="{{site.url}}/{{ path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w">
