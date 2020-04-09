@@ -3,6 +3,9 @@ sass:
     style: compressed
 plugins:
   - jekyll-responsive-image
+markdown: kramdown
+kramdown:
+  parse_block_html: true
 
 responsive_image:
   template: _includes/srcset.html
