@@ -76,3 +76,13 @@ p {
   border-radius: .5rem;
   background-color: white;
 }
+.responsive-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.blog-body-img-container {
+  height: 30rem;
+  overflow: hidden;
+}

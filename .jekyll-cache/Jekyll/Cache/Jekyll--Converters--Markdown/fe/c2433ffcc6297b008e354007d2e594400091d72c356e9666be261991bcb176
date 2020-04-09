@@ -1,0 +1,15 @@
+I"ê<h1 id="image-optimized-blog">Image Optimized Blog</h1>
+
+<h2 id="using-jekyll-responsive-image-gem">Using jekyll-responsive-image gem</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<p>Some more jibberjabber here.</p>
+
+<div class="blog-body-img-container">
+  <p><img src="/assets/images/placeholder-022.jpg" alt="" srcset="    /assets/srcset/360/placeholder-022.jpg 360w,    /assets/srcset/480/placeholder-022.jpg 480w,    /assets/srcset/600/placeholder-022.jpg 600w,    /assets/srcset/800/placeholder-022.jpg 800w,    /assets/srcset/2000/placeholder-022.jpg 2000w, /assets/images/placeholder-022.jpg 2751w" class="responsive-img" /></p>
+</div>
+
+:ET
